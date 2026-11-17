@@ -1,4 +1,10 @@
-def ball():
+def ball(N:int,num_balls:int) -> str:
+    """
+    printing matrix NxN with x amount of balls
+    N - square matrix size 
+    
+    """
+    
     import random
     import time
     N = 4
