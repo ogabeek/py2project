@@ -14,6 +14,6 @@ def menu():
     if user_choise == 1:
         ballgame.ball()
     elif user_choise == 2:
-        pass
+        return = "Stop"
         # painting()
  

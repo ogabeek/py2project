@@ -9,7 +9,13 @@ import menu
 
 
 func.welcom_message()
-menu.menu()
+
+
+while True: 
+    try: 
+        res = menu.menu()
+    except ValueError:
+        print("it must be a number ")
 
 
 
